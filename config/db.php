@@ -1,10 +1,4 @@
 <?php
-$host = 'localhost';
-$db   = 'selfcertifity';
-$port = '3307';
-$user = 'selfcertify_user';
-$pass = 'Uq9#xLp42!vmZ8@'; 
-$charset = 'utf8mb4';
 
 $dsn = "mysql:host=$host;dbname=$db;charset=$charset";
 

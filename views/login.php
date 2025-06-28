@@ -8,8 +8,8 @@
         Contraseña: <input type="password" name="password" required><br>
         <button type="submit">Entrar</button>
     </form>
-    <?php 
-if (isset($_GET['error'])) {
+    <?php
+    if (isset($_GET['error'])) {
     echo "<p style='color:red;'>Credenciales incorrectas.</p>";
 }
 ?>

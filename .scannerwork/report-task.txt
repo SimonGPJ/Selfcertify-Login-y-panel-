@@ -2,5 +2,5 @@ projectKey=selfcertifity
 serverUrl=http://localhost:9000
 serverVersion=25.6.0.109173
 dashboardUrl=http://localhost:9000/dashboard?id=selfcertifity
-ceTaskId=8f4a3c13-e86e-4871-af79-b13421d6ea4e
-ceTaskUrl=http://localhost:9000/api/ce/task?id=8f4a3c13-e86e-4871-af79-b13421d6ea4e
+ceTaskId=1419b679-9d1e-45a6-8206-a3b661061604
+ceTaskUrl=http://localhost:9000/api/ce/task?id=1419b679-9d1e-45a6-8206-a3b661061604
