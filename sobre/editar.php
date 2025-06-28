@@ -4,7 +4,7 @@ if ($_SESSION['rol'] !== 'admin') {
     echo "Acceso denegado.";
     exit;
 }
-require_once __DIR__ . '/../config/db.php';
+require_once __DIR__. '/../config/db.php';
 
 if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     $nuevoContenido = $_POST['contenido'];
@@ -16,7 +16,7 @@ $stmt = $pdo->query("SELECT contenido FROM sobre_proyecto WHERE id = 1");
 $contenido = $stmt->fetchColumn();
 ?>
 <!DOCTYPE html>
-<html>
+<html lang ="es">
 <head><title>Editar Sobre</title></head>
 <body>
     <h2>Editar Contenido del Proyecto</h2>

@@ -6,7 +6,7 @@ if (!isset($_SESSION['usuario'])) {
 }
 ?>
 <!DOCTYPE html>
-<html>
+<html lang="es">
 <head><title>Panel</title></head>
 <body>
     <h2>Bienvenido, <?= $_SESSION['usuario'] ?> (<?= $_SESSION['rol'] ?>)</h2>
